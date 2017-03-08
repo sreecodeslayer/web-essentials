@@ -33,6 +33,9 @@ a:visited{
 	cursor: pointer;
 }
 
+#edit-profile{
+	align-content: right;
+}
 .circle {
     border: 10px solid white;
     border-radius: 10%;
@@ -54,6 +57,11 @@ a:visited{
 	text-align: left;
 }
 
+#edit-form{
+	padding:5%;
+	background-color: #726D63;
+	border: 1px solid;
+}
 
 .main {
 

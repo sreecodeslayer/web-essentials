@@ -4,4 +4,67 @@ body{
     background: #455A64;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    color: white;
+}
+a{
+	text-decoration: none;
+	color: yellow;
+}
+a:link{
+	text-decoration: none;
+	color: yellow;
+}
+a:hover{
+	text-decoration: none;
+	color: white !important;
+	font-size: larger;
+}
+
+a:visited{
+	text-decoration: none;
+	color: red;
+}
+
+#social-content li {
+	display: inline-block;
+}
+
+#main-content h1:hover {
+	cursor: pointer;
+}
+
+.circle {
+    border: 10px solid white;
+    border-radius: 10%;
+    display: inline-block;
+}
+
+.circle:hover {
+    border: 10px solid white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle img {
+    border-radius: 50%;
+    display: block;
+}
+
+#skill-content table{
+	margin:0 auto;
+	text-align: left;
+}
+
+
+.main {
+
+    width: 50%;
+    height: 100%;
+    margin:5%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 5% auto;
 }

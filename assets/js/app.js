@@ -13,3 +13,27 @@ window.onload = function(){
 		editFrom.style.display = "block";
 	}
 }
+var doMath = function(){
+	var var1 = parseInt(document.getElementById("var1").value);
+	var var2 = parseInt(document.getElementById("var2").value);
+
+	var ops = document.getElementsByName('math');
+	var op_value,result;
+	for(var i = 0; i < ops.length; i++){
+    	if(ops[i].checked){
+        	op_value = ops[i].value;
+        	if(op_value == '+'){
+        		result = sum(var1,var2);
+        	}
+    	}
+	}
+    console.log(var1+op_value+var2+" = "+result);
+
+    // Do rest
+}
+
+var sum = function(var1,var2){
+	console.log("Sum");
+	return var1 + var2;
+}
+// Do rest

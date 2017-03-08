@@ -77,3 +77,11 @@ a:visited{
     text-align: center;
     margin: 5% auto;
 }
+
+label{
+	padding: 2%;
+}
+
+#radio-grp{
+	margin-top: 20px; 
+}

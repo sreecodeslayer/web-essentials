@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Profile</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/js/app.js"></script>
+</head>
+<body>
+<div class="main">
+	<div id="js-content">
+		<label>Variable 1 : <input id="var1" type="number" name="Variable1"></label><br>
+		<label>Variable 2 : <input id="var2" type="number" name="Variable2"></label><br>
+		<div id="radio-grp">	
+		<label><input id="op" type="radio" name="math" value="+">Add</label>
+		<label><input type="radio" name="math" value="-">Subtract</label>
+		<label><input type="radio" name="math" value="*">Multiply</label>
+		<label><input type="radio" name="math" value="/">Divide</label>
+		<label><input type="radio" name="math" value="%">Mod</label>
+		</div>
+		<button onclick="doMath()">Find</button>
+		<label id="result"></label>
+	</div>
+</body>
+</html>

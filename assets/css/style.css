@@ -61,6 +61,7 @@ a:visited{
 	padding:5%;
 	background-color: #726D63;
 	border: 1px solid;
+	display: none;
 }
 
 .main {

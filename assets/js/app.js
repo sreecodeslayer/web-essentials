@@ -14,6 +14,22 @@ window.onload = function(){
 		editFrom.style.display = "block";
 	}
 }
+
+var makeUl = function(limit){
+	var ul = document.createElement('ul');
+	var limit = document.getElementById('limit').value;
+	console.log(limit);
+
+	for (var i = 0; i < limit; i++) {
+		var li = document.createElement('li');
+		console.log(li)
+		li.appendChild(document.createTextNode(i));
+		li.style.textAlign = "left";
+		ul.appendChild(li);
+	}
+	document.getElementById('makeUlDiv').appendChild(ul);
+}
+
 var doMath = function(){
 	var var1 = parseInt(document.getElementById("var1").value);
 	var var2 = parseInt(document.getElementById("var2").value);
